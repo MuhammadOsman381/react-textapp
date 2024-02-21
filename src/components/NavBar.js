@@ -57,8 +57,8 @@ export default function Nav() {
         </div>
 
         <div className="ham  text-white list-none flex flex-row gap-[2vw] max-lg:gap-[2vh] max-sm:flex-col  max-sm:h-[15vh] max-sm:w-[100vw] items-center justify-center max-sm:hidden max-sm:bg-zinc-100 bg-black relative z-10">
-        <li onClick={box}><Link to="home">Home</Link></li>
-        <li onClick={box}><Link to="about" >About myTextApp</Link></li>
+        <li className="max-sm:text-black" onClick={box}><Link to="home">Home</Link></li>
+        <li onClick={box} className="max-sm:text-black"><Link to="about" >About myTextApp</Link></li>
         </div>
 
         <Outlet />

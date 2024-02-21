@@ -21,9 +21,4 @@
     color: white;
 }
 
-@media (max-width: 640px) { 
-    .ham 
-    {
-        color: black;
-    }
-}
+
